@@ -15,7 +15,7 @@ body{
 #intro{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 15px 15px 15px 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 h1{
@@ -41,3 +41,12 @@ h1{
     padding: 0px 100px 0px 0px;   
 }
 
+.feedback-label{
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.feedback-input{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
