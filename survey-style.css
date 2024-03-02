@@ -9,7 +9,30 @@ color pallet:
 body{
     background-color: #1F2F16;
     color: #C5D1EB;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#intro{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 h1{
     text-align: center;
 }
+
+
+#intro-img{
+    width: 100%;
+}
+
+.info-label{
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+.info-input{
+    margin: 1px 10px 10px 10px;
+    padding: 0px 100px 0px 0px;   
+}
+
