@@ -55,6 +55,10 @@ hr {
     text-align: center;
 }
 
+.info-input{
+    border: none;
+}
+
 #service-feedback{
     display: grid;
     grid-template-columns: 1fr;
@@ -71,4 +75,39 @@ hr {
 .radio-options{
     font-size: 12px;
     margin: 5px 15px 30px 15px;
+}
+
+#button-options{
+    text-align: center;
+    margin: 5px 15px 30px 15px;
+}
+
+.button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+.button:focus{
+    background-color: rebeccapurple;
+}
+
+#footer{
+    text-align: center;
+}
+
+#submit{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+#text{
+    padding: 20px 20px 20px 20px;
+}
+
+#intro-img{
+    width: 100%;
 }
