@@ -15,6 +15,7 @@ body{
 #intro{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 15px 15px 15px 15px;
 }
 
 h1{
@@ -26,9 +27,13 @@ h1{
     width: 100%;
 }
 
+#intro-pharagraph{
+    padding: 10px 10px 5px 10px;
+}
+
 .info-label{
     display: block;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 10px 10px 10px;
 }
 
 .info-input{
