@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey-style.css">
     <title>Survey</title>
 </head>
 <body>
@@ -16,25 +17,25 @@
     <div id="main">
         <form id="form">
             <div id="personal-info">
-                <label>Name:</label>
+                <label for="name" class-="labels">Name:</label>
                     <input type="text" id="name" placeholder="Your full name">
-                <label>E-mail:</label>
+                <label for="e-mail">E-mail:</label>
                     <input type="email" id="email">
             </div>
-            <div id="feedback">
-            <p>How would you like to rate the support you received?</p>
-            <input  type="radio"> 0
-            <input  type="radio"> 1
-            <input  type="radio"> 2
-            <input  type="radio"> 3
-            <input  type="radio"> 4
-            <input  type="radio"> 5
-            <input  type="radio"> 6
-            <input  type="radio"> 7
-            <input  type="radio"> 8
-            <input  type="radio"> 9
-            <input  type="radio"> 10
-        </div>
+            <div id="srvice-feedback">
+                <label>How would you rate our services?</label>
+                <label>Would you use our services again?</label>
+                <label>Is there anything we can do to improve our services?</label>
+            </div>
+            <div id="support-feedback">
+                <label>How would you rate the support received?</label>
+                    <input  type="radio"> Completely satisfied
+                    <input  type="radio"> very satisfied
+                    <input  type="radio"> moderalely satisfied
+                    <input  type="radio"> slightly satisfied
+                    <input  type="radio"> not at all satisfied
+
+            </div>
         </form>
     </div>
 </body>
