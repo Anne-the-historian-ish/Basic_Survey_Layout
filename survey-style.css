@@ -5,10 +5,16 @@ color pallet:
 #5A7684
 #395B50
 #1F2F16
+
+#intro-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+}
 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body{
-    background-color: #1F2F16;
-    color: #C5D1EB;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -20,46 +26,32 @@ body{
 
 h1{
     text-align: center;
+    font-family: "Playfair Display", serif;
     font-size: 40px;
-}
-
-
-#intro-img{
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #intro-pharagraph{
-    background-color: #5A7684;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
     margin-top: 0px;
-    padding: 30px 10px 30px 10px;
+    padding: 0px 10px 30px 10px;
 }
 
-.info-label{
+hr {
     display: block;
-    margin: 5px 10px 10px 10px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
-.info-input{
-    margin: 1px 10px 10px 10px;
-    padding: 0px 100px 0px 0px;   
+#personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 20px 20px 20px;
+    text-align: center;
 }
 
-.feedback-label{
-    display: block;
-    margin: 15px 15px 15px 15px;
-}
-
-.feedback-input{
-    display: inline-block;
-    padding: 5px 5px 5px 5px;
-}
-
-.radio-options{
-    background-color: #5A7684;
-    padding: 20px 20px 20px 20px;
-}
